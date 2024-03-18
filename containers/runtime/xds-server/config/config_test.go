@@ -19,7 +19,7 @@ import (
 	"reflect"
 	"time"
 
-	. "github.com/onsi/ginkgo"
+	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 
 	endpoint "github.com/envoyproxy/go-control-plane/envoy/config/endpoint/v3"

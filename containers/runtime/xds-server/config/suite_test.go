@@ -25,7 +25,7 @@ import (
 	"google.golang.org/protobuf/types/known/wrapperspb"
 	"sigs.k8s.io/controller-runtime/pkg/envtest/printer"
 
-	. "github.com/onsi/ginkgo"
+	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 
 	cluster "github.com/envoyproxy/go-control-plane/envoy/config/cluster/v3"
