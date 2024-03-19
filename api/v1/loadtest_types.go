@@ -379,8 +379,8 @@ type LoadTestStatus struct {
 	StopTime *metav1.Time `json:"stopTime,omitempty"`
 }
 
-// +kubebuilder:object:root=true
-// +kubebuilder:subresource:status
+//+kubebuilder:object:root=true
+//+kubebuilder:subresource:status
 
 // LoadTest is the Schema for the loadtests API
 // +kubebuilder:printcolumn:name="State",type=string,JSONPath=`.status.state`
@@ -393,7 +393,7 @@ type LoadTest struct {
 	Status LoadTestStatus `json:"status,omitempty"`
 }
 
-// +kubebuilder:object:root=true
+//+kubebuilder:object:root=true
 
 // LoadTestList contains a list of LoadTest
 type LoadTestList struct {
